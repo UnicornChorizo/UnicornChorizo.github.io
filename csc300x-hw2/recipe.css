@@ -1,0 +1,75 @@
+/* recipe.css */
+/*Kevin Ornelas Ceron
+    CSS for the pie.html and all its content/extra features.*/
+
+h1 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #404040;
+    font-family: Georgia, Garamond, sans-serif;
+    font-size: 11pt;
+}
+
+ul {
+    list-style-image: url("pie_icon.gif");
+}
+
+#prep,
+#ingredients,
+#directions {
+    border-bottom: 1px solid; /* Black line */
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #FFFFA8;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: italic;
+}
+
+a {
+    color: #A4A400;
+}
+
+#links {
+    margin-bottom: 10px;
+}
+
+#links p {
+    margin: 0;
+}
+
+#footer {
+    float: left;
+
+}
+
+.copyright p {
+    margin: 0;
+    font-family: monospace;
+    text-align: right;
+}
+
+.image-links {
+    margin-top: 10px;
+}
+
