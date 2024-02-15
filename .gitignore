@@ -1,2 +1,5 @@
 
 .idea/misc.xml
+exclude:
+  - node_modules/
+  - other_directory_to_exclude/
