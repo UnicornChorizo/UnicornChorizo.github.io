@@ -19,7 +19,7 @@ h1 {
     margin: 0;
 }
 
-#main-content {
+section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
