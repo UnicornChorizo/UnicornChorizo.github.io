@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+}
+
+
+/* dish-description class */
+/* Hide dish description by default */
+.dish-description {
+    display: none;
+}
+
+/* Show dish description when an image is clicked */
+.dish-image.enlarged + .dish-description {
+    display: block;
+}
+
+
+/* flex-container class */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* dish-image class */
+.dish-image {
+    /*max-width: 5px;*/
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+/* dish-image:hover class */
+.dish-image:hover {
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/styles.css">
+    <title>Meal Plan</title>
+</head>
+<body class="bg-gray-100">
+<header class="text-center py-4 bg-gray-800 text-white">
+    <h1 class="text-4xl font-bold">Meal Plan</h1>
+</header>
+<main class="flex justify-between p-4 container mx-auto">
+    <section class="w-1/2 bg-white p-4 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-bold mb-4">Recommended Dishes</h2>
+        <div id="recommended-dishes" class="space-y-2">
+        </div>
+    </section>
+    <section class="w-1/2 bg-white p-4 rounded-lg shadow-lg ml-4">
+        <h2 class="text-2xl font-bold mb-4">Meal Plan</h2>
+        <div id="meal-plan" class="space-y-2">
+        </div>
+        <p class="mt-4 font-bold">Total Cost: $<span id="total-cost">0.00</span></p>
+    </section>
+</main>
+<div class="text-center mt-8">
+    <a href="index.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Return to Home</a>
+</div>
+<script src="../src/scripts-mealplan.js"></script>
+</body>
+</html>

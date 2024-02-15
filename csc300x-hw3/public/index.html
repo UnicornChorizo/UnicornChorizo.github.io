@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../src/styles.css" rel="stylesheet">
+    <title>Petty Eats</title>
+</head>
+<body>
+<header class="bg-gray-900 text-white py-4 font-bold">
+    <h1 class="text-4xl text-center">Petty Building Food and Drink Recommendations</h1>
+</header>
+<main class="container mx-auto py-8">
+    <section>
+        <h2 class="text-2xl font-bold mb-4">Introduction</h2>
+        <p class="mb-8">Welcome to our foodie haven! Embark on a culinary journey with us as we uncover hidden gems and
+            mouth-watering delights on campus. Whether you're craving comfort food or seeking out exotic flavors, our
+            carefully crafted selection promises a gastronomic adventure. Dive into a world of taste sensations, and
+            let's savor the joy of discovering new favorites together. Join us, and let your food journey begin!</p>
+    </section>
+    <section>
+        <h2 class="text-2xl font-bold mb-4">Food Establishment Recommendations</h2>
+        <article class="mb-8">
+            <h3 class="text-xl font-bold mb-2">Don Ishiyaki and Ramen</h3>
+            <p class="mb-4">Located just a stone's throw away from the main campus building, Don Ishiyaki and Ramen is
+                a cozy spot known for its mouthwatering ramen bowls and Japanese menu. Whether you're craving savory
+                noodles or grilled meats, this restaurant has something for everyone.</p>
+            <div class="flex flex-wrap -mx-4">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/rice-bowl.jpg" alt="Rice Bowl"
+                     data-price="$12.45" data-description="A delicious rice bowl with various toppings.">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/miso-ramen.jpeg" alt="Miso Ramen"
+                     data-price="$10.95" data-description="Rich and flavorful miso ramen.">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/bulgogi-bowl.jpeg" alt="Bulgogi Bowl"
+                     data-price="$13.45" data-description="Savory bulgogi beef served over rice.">
+            </div>
+            <div class="dish-description hidden"></div>
+        </article>
+        <article class="mb-8">
+            <h3 class="text-xl font-bold mb-2">Astro Dogs</h3>
+            <p class="mb-4">Craving gourmet Korean corn dogs with a twist? Astro Dogs is the place to be. Located just
+                steps away from campus, this unique eatery offers a variety of creative hot dog creations, loaded with
+                innovative toppings and served in freshly baked buns.</p>
+            <div class="flex flex-wrap -mx-4">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/asteroid-corndog.jpeg"
+                     alt="Asteroid Belt K Dog" data-price="$6.59" data-description="Testing">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/sun-corndog.png" alt="Sun K Dog"
+                     data-price="$6.29" data-description="Testing">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/mercury-corndog.png" alt="Mercury K Dog"
+                     data-price="$6.29" data-description="Testing">
+            </div>
+        </article>
+        <article class="mb-8">
+            <h3 class="text-xl font-bold mb-2">Slices by Tony</h3>
+            <p class="mb-4">Indulge in the variety of flavors of pizza at Slices by Tony. Conveniently located near
+                campus, this restaurant offers a diverse menu.</p>
+            <div class="flex flex-wrap -mx-4">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/ziti-pizza.jpeg" alt="Ziti Pizza"
+                     data-price="$15.99" data-description="Testing">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/cheese-pizza.jpeg" alt="Cheese Pizza"
+                     data-price="=$11.99" data-description="Testing">
+                <img class="dish-image w-1/3 px-4 mb-4" src="../src/images/chicken-pesto-pizza.jpeg"
+                     alt="Chicken Pesto Pizza" data-price="$15.99" data-description="Testing">
+            </div>
+        </article>
+        <article class="mb-8">
+            <p class="mb-4">
+                Ready to creat a meal plan? Click the button below to get started.
+            </p>
+            <a href="../public/meal-plan.html"
+               class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create
+                Meal Plan</a>
+        </article>
+    </section>
+    <aside class="bg-gray-200 p-4">
+        <h2 class="text-xl font-bold mb-2">Additional Information</h2>
+        <p>All these recommendations are located on Tate St. so they are super close to Petty.</p>
+    </aside>
+</main>
+<div class="dish-description-container"></div>
+
+<script src="../src/scripts.js"></script>
+</body>
+</html>
