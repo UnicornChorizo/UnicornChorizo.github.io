@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#game-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.throw-option {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.throw-option.selected {
+  border: 3px solid blue;
+}
+
+#computer-throw-image {
+  width: 100px;
+  height: 100px;
+}
+
+#reset-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
