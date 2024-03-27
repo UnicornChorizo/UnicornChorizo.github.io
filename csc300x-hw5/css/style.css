@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#username {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.repository {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+}
+
+.repository h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.repository p {
+  margin: 5px 0;
+}
+
+.languages {
+  margin: 10px 0;
+}
+
+.language {
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+
+.fa-github {
+  color: #000;
+}
