@@ -3,3 +3,4 @@
 exclude:
   - node_modules/
   - other_directory_to_exclude/
+.DS_Store
